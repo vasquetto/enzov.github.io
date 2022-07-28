@@ -129,6 +129,7 @@ img{
   align-items: center;
   height: 100%;
   margin: 1vh 0 0;
+  z-index: -300;
 }
 
 .intro-home{
