@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../main.css">
     <link rel="shortcut icon" href="../img_2/icon-mate.png" type="image/x-icon">
     <title>Yerba Mate</title>
     
@@ -13,42 +14,44 @@
     
     <header>
 
-        <nav class="nav container" id="nav">
+        <nav class="nav h-auto w-auto" id="nav">
 
-            <a class="logo-mateados" href="index.html">
-                <h1 class="title-home">Mateados</h1>
+            <a class="logo-mateados text-decoration-none mx-1 my-1" href="index.html">
+                <h1 class="title-home mb-0">Mateados</h1>
             </a>
 
             <ul class="nav-escritorio">
                 <li class="menu_de_nav">
-                    <a href="../index.html">Inicio</a>
+                    <a href="../index.html" class="text-decoration-none">Inicio</a>
                 </li>
                 <li class="menu_de_nav home-inicio">
-                    <a href="yerbas.html">Yerba</a>
+                    <a href="yerbas.html" class="text-decoration-none">Yerba</a>
                 </li>
                 <li class="menu_de_nav">
-                    <a href="mates.html">Mates y Bombillas</a>
+                    <a href="mates.html" class="text-decoration-none">Mates y Bombillas</a>
                 </li>
                 <li class="menu_de_nav">
-                    <a href="preparaciones.html">Preparaciones</a>
+                    <a href="preparaciones.html" class="text-decoration-none">Preparaciones</a>
                 </li>
                 <li class="menu_de_nav">
-                    <a href="beneficios.html">Beneficios</a>
+                    <a href="beneficios.html" class="text-decoration-none">Beneficios</a>
                 </li>
                 <li class="menu_de_nav">
-                    <a href="contacto.html">Contacto</a>
+                    <a href="contacto.html" class="text-decoration-none">Contacto</a>
                 </li>
             </ul>
 
-            <a href="#nav" class="menu-open">
+            <a href="#nav" class="menu-open position-absolute end-0 mx-1">
                 <img src="../img_2/menu-open.png" alt="Barra de menu" class="nav-icon">
             </a>
 
-            <a href="#" class="menu-close">
+            <a href="#" class="menu-close position-absolute end-0 mx-1">
                 <img src="../img_2/menu-close.png" alt="Barra de menu" class="nav-icon">
             </a>
+
         </nav>
     </header>
+
     
     <main class="main-yerba">
         <section class="introduccion-yerba-section">
@@ -244,28 +247,27 @@
         </section>
     </main>
 
-    <footer>
-        <article class="contact">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img class="facebook" src="../img/icons8-facebook-f-64.png" alt="Logo de facebook">
+    <footer class="mt-5">
+        <article class="contact d-flex flex-row justify-content-evenly mb-2">
+            <a href="https://www.facebook.com/" target="_blank" class="text-decoration-none g-col-1 ">
+                <img class="facebook bg-primary rounded-3 px-1 py-1" src="../img/icons8-facebook-f-64.png" alt="Logo de facebook" style="max-width: 40px;">
             </a>
 
-            <a href="https://www.instagram.com/" target="_blank">
-                <img class="instagram" src="../img/icons8-instagram-64.png" alt="Logo de instagram">
+            <a href="https://www.instagram.com/" target="_blank" class="text-decoration-none">
+                <img class="instagram bg-primary rounded-3 px-1 py-1" src="../img/icons8-instagram-64.png" alt="Logo de instagram" style="max-width: 40px;">
             </a>
 
-            <a href="https://twitter.com/" target="_blank">
-                <img class="twitter" src="../img/icons8-twitter-64.png" alt="Logo de twitter">
+            <a href="https://twitter.com/" target="_blank" class="text-decoration-none">
+                <img class="twitter bg-primary rounded-3 px-1 py-1" src="../img/icons8-twitter-64.png" alt="Logo de twitter" style="max-width: 40px;">
             </a>
 
-            <a href="https://www.whatsapp.com/" target="_blank">
-                <img class="whatsapp" src="../img/icons8-whatsapp-64 (1).png" alt="Logo de whatsapp">
+            <a href="https://www.whatsapp.com/" target="_blank" class="text-decoration-none">
+                <img class="whatsapp bg-primary rounded-3 px-1 py-1" src="../img/icons8-whatsapp-64 (1).png" alt="Logo de whatsapp" style="max-width: 40px;">
             </a>
         </article>
 
-        <p class="follows-div">Seguinos en nuestras redes</p>
-        <p class="title-home-footer">Mateados</p>
-        <p class="footer-text">Desarrollado por Enzo Vasquetto - 2022</p>
+        <p class="title-home-footer m-0">Mateados</p>
+        <p class="footer-text m-0">Desarrollado por Enzo Vasquetto - 2022</p>
     </footer>
 </body>
 </html>

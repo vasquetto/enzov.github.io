@@ -379,76 +379,6 @@ img{
   }
 }
 
-footer{
-  margin: 70px 0 0;
-}
-
-footer .contact img{
-  width: 10%;
-  max-width: 40px;
-}
-
-footer .facebook{
-  position: relative;
-  bottom: 65px;
-  left: -15px;
-
-  padding: 30px;
-  background-color: #9C8D6D;
-  border-radius: 50%;
-  z-index: -200;
-}
-
-footer .instagram{
-  position: relative;
-  bottom: 15px;
-  left: -20px;
-
-  padding: 2px;
-  background-color: #B8A57D;
-  border-radius: 50%;
-  z-index: -200;
-}
-
-footer .twitter{
-  position: relative;
-  bottom: 45px;
-  left: -10px;
-
-  padding: 15px;
-  background-color: #E0CA9B;
-  border-radius: 50%;
-  z-index: -200;
-}
-
-footer .whatsapp{
-  position: relative;
-  bottom: -15px;
-  left: -10px;
-
-  padding: 7px;
-  background-color: #887B5F;
-  border-radius: 50%;
-  z-index: -200;
-}
-
-footer .follows-div{
-  position: relative;
-  bottom: 10px;
-  left: 10px;
-  display: inline-block;
-  padding: 2% 3%;
-
-  font-family: 'Oswald', sans-serif;
-  font-weight: normal;
-  font-size: .9rem;
-  color: #ffffff;
-
-  background-color: #9C8D6D;
-  border-radius: 10px;
-  z-index: -200;
-}
-
 footer .title-home-footer{
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
@@ -456,7 +386,7 @@ footer .title-home-footer{
   text-transform: uppercase;
   color: #ffffff;
 
-  background-color: #9C8D6D;
+  background-color: #B8A57D;
   text-align: center;
   padding: 30px 0;
 }
@@ -884,23 +814,6 @@ footer .footer-text{
     width: 35%;
   }
 
-
-  footer .facebook{
-    padding: 60px;
-  }
-  
-  footer .instagram{
-    padding: 4px;
-  }
-  
-  footer .twitter{
-    padding: 30px;
-  }
-  
-  footer .whatsapp{
-    padding: 14px;
-  }
-  
   footer .follows-div{
     padding: 10px 20px;
     font-size: 1.2rem;
