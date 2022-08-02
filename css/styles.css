@@ -601,6 +601,103 @@ footer .footer-text{
 
 
 
+/*MATES Y BOMBILLAS*/
+.div-mate{
+  position: relative;
+  top: -50px;
+}
+
+.div-mate h3{
+  display: inline-block;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+.introduccion-mate-bombilla-section{
+  background-image: url(../img_2/background-mate.png);
+  background-size: 120vh 80vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.introduccion-mate-bombilla-section .linea-mate{
+  width: 90%;
+}
+
+#brazo-derecho{
+  animation-name: girarBrazo2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-box: fill-box;
+  transform-origin: center top;
+}
+
+@keyframes girarBrazo2{
+  0%{
+    transform: rotate(0deg);
+  }
+
+  50%{
+    transform: rotate(-20deg);
+  }
+
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.how-mate-bombilla-div{
+  box-shadow: 2px 2px 4px #6C6C6C;
+}
+
+.what-mate-exist-title-about{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  }
+  
+  .mate{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+  }
+
+  header{
+    z-index: 1500;
+  }
+
+.pregunta-bombillas{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  }
+
+.what-bombillas-title-about{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5rem;
+  }
+
+  .what-bombilla-div{
+    box-shadow: 2px 2px 4px #6C6C6C;
+  }
+
+  #what-mate-exist-section-desktop{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*VERSIÓN DESKTOP*/
@@ -950,6 +1047,78 @@ font-size: 2rem;
 
 
 
+
+
+
+
+
+
+
+/*MATES Y BOMBILLAS*/
+.div-mate h3{
+  font-size: 6rem
+}
+
+.introduccion-mate-bombilla-section .linea-mate{
+  width: 60%;
+}
+
+.introduccion-mate-bombilla-section{
+  background-size: 100%;
+}
+
+.img-one-mate{
+  width: 200px !important;
+  max-height: 550px;
+}
+
+.how-mate-bombilla-div{
+  height: max-content !important;
+}
+
+.how-mate-bombilla-div h3{
+  font-size: 2rem;
+}
+
+.how-mate-bombilla-div p{
+  font-size: 1.4rem;
+}
+
+.what-mate-exist-title-about{
+  font-size: 2rem;
+}
+
+#what-mate-exist-section{
+  display: none;
+}
+
+#what-mate-exist-section-desktop{
+  display: inherit;
+}
+
+.what-mate-exist-section-desktop h3{
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #B8A57D;
+}
+
+.what-mate-exist-section-desktop p{
+  text-align: center;
+}
+
+.what-bombilla-div h3{
+  font-size: 2rem;
+}
+
+.what-bombilla-div p{
+  font-size: 1.4rem;
+}
+
+.img-dos-mates-bombillas{
+  max-width: 400px;
+}
 
 
 
